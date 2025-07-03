@@ -1,0 +1,39 @@
+.platforms {
+  overflow: hidden;
+  padding: 10em 0;
+}
+.platforms__swiper {
+  overflow: visible;
+  padding: 2em 0;
+}
+.platforms__slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: var(--c-neutrals-bg-l);
+}
+.platforms__next,
+.platforms__prev {
+  position: absolute;
+  top: 0;
+  padding: 12px;
+
+  border: 1px solid #797a7c;
+  background-image: url(../../../../public/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+
+  cursor: pointer;
+  z-index: 10;
+}
+.platforms__next {
+  left: 30px;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}

@@ -1,0 +1,33 @@
+.directions {
+  position: relative;
+  padding: 10em 0;
+}
+.directions__titleWraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 0.5em;
+}
+
+.directions__titleContainer {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.directions__title {
+  color: #313c52;
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+.directions__description {
+  margin-bottom: 2em;
+  text-align: center;
+  max-width: 1000px;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.directions__list {
+  position: relative;
+}

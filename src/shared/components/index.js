@@ -1,0 +1,8 @@
+export { Audiences } from "./audiences";
+export { Directions } from "./directions";
+export { Footer } from "./footer";
+export { Header } from "./header";
+export { Hero } from "./hero";
+export { Navbar } from "./navbar";
+export { News } from "./news";
+export { Platforms } from "./platforms";
