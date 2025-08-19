@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { slide, child } from "../anim";
+import { slide, child } from "../../lib/anim";
 
-import styles from "./style.module.scss";
+import styles from "./style.module.css";
 
 export const AnimatedLink = ({ data }) => {
   const { title, href, index } = data;

@@ -25,6 +25,16 @@ export const Platforms = () => {
             prevEl: ".prevEl",
             nextEl: ".nextEl",
           }}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 16,
+            },
+            640: {
+              slidesPerView: 1.5,
+              spaceBetween: 20,
+            },
+          }}
           pagination={true}
           modules={[Navigation, Pagination]}
         >

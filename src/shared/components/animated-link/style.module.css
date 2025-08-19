@@ -1,0 +1,51 @@
+.link {
+  width: fit-content;
+  margin-left: auto;
+  position: relative;
+}
+
+/* вложенный span */
+.link span {
+  position: relative;
+}
+
+/* каждый второй span (2,4,6...) */
+.link span:nth-child(2n) {
+  z-index: 2;
+}
+
+/* линии внутри .link__line */
+.link__line span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 0.2em;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* задержки для отдельных линий */
+.link__line span:nth-child(1) {
+  transition-delay: 0s;
+}
+.link__line span:nth-child(2) {
+  transition-delay: 0.15s;
+}
+.link__line span:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+/* на hover разворачиваем линии */
+.link:hover .link__line span {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* когда не hover — поворот происхождения трансформации вправо */
+.link:not(:hover) .link__line span {
+  transform-origin: right;
+}

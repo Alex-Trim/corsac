@@ -113,9 +113,9 @@ export const News = () => {
                 <div className={styles.line__left}>
                   <h3 className={styles.line__titel}>{item.title}</h3>
                 </div>
-                <div className={styles.line__right}>
+                {/* <div className={styles.line__right}>
                   <p className={styles.line__description}>{item.description}</p>
-                </div>
+                </div> */}
                 <span className={styles.line__img}>
                   <svg
                     className={styles.line__icon}

@@ -3,8 +3,8 @@ import React from "react";
 import { Menus } from "../menu";
 import styles from "./header.module.css";
 import { motion, AnimatePresence } from "framer-motion";
-import { logoText } from "../anim";
-import { useSmoothScroller } from "../ScrollContext";
+import { logoText } from "../../lib/anim";
+import { useSmoothScroller } from "../providers/ScrollContext";
 
 export const Header = () => {
   const lenis = useSmoothScroller();
@@ -14,16 +14,12 @@ export const Header = () => {
   const animateTextChange = (target, newText) => {
     const currentText = target.innerText;
     let i = currentText.length;
-
-    // Фаза 1: Стирание
     const eraseInterval = setInterval(() => {
       if (i > 0) {
         target.innerText = currentText.substring(0, i - 1);
         i--;
       } else {
         clearInterval(eraseInterval);
-
-        // Фаза 2: Набор нового текста
         let j = 0;
         const writeInterval = setInterval(() => {
           if (j <= newText.length) {
@@ -50,9 +46,11 @@ export const Header = () => {
       if (menuState) {
         lenis.stop();
         document.body.classList.add("no-scroll");
+        document.body.style.paddingRight = `15px`;
       } else {
         lenis.start();
         document.body.classList.remove("no-scroll");
+        document.body.style.paddingRight = `0px`;
       }
     }
   }, [menuState, lenis]);
@@ -63,7 +61,7 @@ export const Header = () => {
     >
       <div className={`container ${styles.header__container}`}>
         <div className={styles.logo__link}>
-          <img src="/corsac.png" alt="Корсак лого" />
+          <img src="/images/corsac.svg" alt="Корсак лого" />
           <AnimatePresence mode="wait">
             {menuState && (
               <motion.div

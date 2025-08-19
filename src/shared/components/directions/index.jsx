@@ -3,21 +3,24 @@ import React from "react";
 
 import styles from "./directions.module.css";
 import { Card } from "../card";
-import { useScroll, motion } from "framer-motion";
+import { useScroll } from "framer-motion";
 
 const projects = [
   {
     title: "Обучение студентов ВО",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit corporis repellat. Id dolores quisquam quis, ea exercitationem omnis ratione eaque corporis, excepturi nesciunt, pariatur natus fugit autem nam labore.",
+    description: `Реализация основных образовательных программ высшего образования с использованием ресурсов электронной информационно-образовательной среды Университета. Цифровая образовательная платформа «Электронные курсы Оренбургского государственного университета» moodle.osu.ru обеспечивает:\n
+                  •  управление пользователями всех категорий;\n
+                  •  хранение, обновление и систематизацию учебно-методических ресурсов;\n
+                  •  организацию и информационную поддержку учебного процесса с применением дистанционных образовательных технологий;\n
+                  •  взаимодействие участников образовательного процесса;\n
+                  •  мониторинг хода учебного процесса с применением дистанционных образовательных технологий.`,
     src: "",
     link: "",
     color: "",
   },
   {
     title: "Обучение по программам ДПО",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit corporis repellat. Id dolores quisquam quis, ea exercitationem omnis ratione eaque corporis, excepturi nesciunt, pariatur natus fugit autem nam labore.",
+    description: `Реализация программ профессиональной переподготовки и курсов повышения квалификации в Институте непрерывного профессионального образования Оренбургского государственного университета на цифровой образовательной платформе dpo.osu.ru`,
     src: "",
     link: "",
     color: "",
@@ -25,7 +28,7 @@ const projects = [
   {
     title: "Обучение преподавателей",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit corporis repellat. Id dolores quisquam quis, ea exercitationem omnis ratione eaque corporis, excepturi nesciunt, pariatur natus fugit autem nam labore.",
+      "Доступное и качественное образование для педагогических работников вузов, колледжей и школ Оренбуржья по программам повышения квалификации и профессиональной подготовки с применением дистанционных образовательных технологий в Институте развития образования Оренбургского государственного университета на цифровой образовательной платформе moodle.osu.ru",
     src: "",
     link: "",
     color: "",
@@ -33,7 +36,7 @@ const projects = [
   {
     title: "Олимпиады",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit corporis repellat. Id dolores quisquam quis, ea exercitationem omnis ratione eaque corporis, excepturi nesciunt, pariatur natus fugit autem nam labore.",
+      "Проведение областных, межрегиональных и международных олимпиад для обучающихся среднего общего, среднего профессионального и высшего образования на базе Оренбургского государственного университета с применением дистанционных образовательных технологи на цифровой образовательной платформе moodle.osu.ru",
     src: "",
     link: "",
     color: "",
@@ -41,7 +44,15 @@ const projects = [
   {
     title: "Экзамены",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit corporis repellat. Id dolores quisquam quis, ea exercitationem omnis ratione eaque corporis, excepturi nesciunt, pariatur natus fugit autem nam labore.",
+      "Проведение творческого конкурса вступительных испытаний по правилам Оренбургского государственного университета в режиме онлайн в период ежегодной приемной кампании на цифровой образовательной платформе exam.osu.ru",
+    src: "",
+    link: "",
+    color: "",
+  },
+  {
+    title: "Анкетирование",
+    description:
+      "Проведение анонимного социально-психологического анкетирования студентов Оренбургского государственного университета с применением дистанционных образовательных технологи на цифровой образовательной платформе moodle.osu.ru",
     src: "",
     link: "",
     color: "",

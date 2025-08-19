@@ -3,7 +3,7 @@ import style from "./menu.module.css";
 import { Navbar } from "../navbar";
 import Curve from "../curve";
 import { motion } from "framer-motion";
-import { menuSlide, menuContain } from "../anim";
+import { menuSlide, menuContain } from "../../lib/anim";
 export const Menus = () => {
   return (
     <motion.div

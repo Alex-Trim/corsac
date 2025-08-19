@@ -5,7 +5,7 @@ import styles from "./hero.module.css";
 import { motion, useInView } from "framer-motion";
 export const Hero = () => {
   const ref = React.useRef(null);
-  const isInView = useInView(ref, { once: true }); // margin для более раннего срабатывания
+  const isInView = useInView(ref, { once: true });
 
   return (
     <section className={styles.hero}>

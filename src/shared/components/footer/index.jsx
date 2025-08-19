@@ -2,7 +2,7 @@
 import React from "react";
 import styles from "./footer.module.css";
 import { motion } from "framer-motion";
-import WolfAnimation from "../WolfAnimation";
+import WolfAnimation from "../wolf-animation";
 export const Footer = () => {
   return (
     <footer className={styles.footer}>

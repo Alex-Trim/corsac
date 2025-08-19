@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
 import styles from "./audiences.module.css";
-import { audiences } from "../anim";
+import { audiences } from "../../lib/anim";
 import { motion, useInView } from "framer-motion";
 const projects = [
   {
     title: "Для бизнеса",
     description:
       " Корпоративное обучение для топ-менеджеров компаний, собственников бизнеса и их команд в соответствии с требованиями цифровой экономики.",
-    src: "/For-business-Picsart-BackgroundRemover.png",
+    src: "/images/For-business-Picsart-BackgroundRemover.png",
     link: "",
     color: "",
   },
@@ -16,7 +16,7 @@ const projects = [
     title: "Для госсектора",
     description:
       "Повышение квалификации представителей органов государственной власти и местного самоуправления, подведомственных организаций, а также подготовка регионов к цифровой трансформации.",
-    src: "/For-the-public-sector-Picsart-BackgroundRemover.png",
+    src: "/images/For-the-public-sector-Picsart-BackgroundRemover.png",
     link: "",
     color: "",
   },
@@ -24,7 +24,7 @@ const projects = [
     title: "Для физических лиц",
     description:
       "Получение востребованной ИТ-специальности по программам повышения квалификации с выдачей официального документа установленного образца о профессиональной переподготовке.",
-    src: "/Fox-individuals.png",
+    src: "/images/Fox-individuals.png",
     link: "",
     color: "",
   },

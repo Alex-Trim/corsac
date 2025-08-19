@@ -6,3 +6,4 @@ export { Hero } from "./hero";
 export { Navbar } from "./navbar";
 export { News } from "./news";
 export { Platforms } from "./platforms";
+export { BlurLine } from "./blur_line";
