@@ -40,20 +40,50 @@ export const Platforms = () => {
         >
           <SwiperSlide>
             <div className={styles.platforms__slide}>
-              <div>
-                {/* <img src="/f40bd389-99b0-44df-800a-f6097c40468c.png" alt="" /> */}
+              <div className={styles.platforms__img_container}>
+                <img
+                  src="/images/f40bd389-99b0-44df-800a-f6097c40468c.webp"
+                  alt=""
+                />
               </div>
-              <span>Картинка modle.osu.ru</span>
+              <div className={styles.platforms__text}>
+                <span>Образовательная цифровая платформа ВО</span>
+                <a href="/" className={styles.platforms__link}>
+                  Подробнее ⟶
+                </a>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.platforms__slide}>
-              <span>Картинка dpo.osu.ru</span>
+              <div className={styles.platforms__img_container}>
+                <img
+                  src="/images/picture_a450423e076f46768109514263585d47.webp"
+                  alt=""
+                />
+              </div>
+              <div className={styles.platforms__text}>
+                <span>Образовательная цифровая платформа ДПО</span>
+                <a href="/" className={styles.platforms__link}>
+                  Подробнее ⟶
+                </a>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.platforms__slide}>
-              <span>Картинка exam.osu.ru</span>
+              <div className={styles.platforms__img_container}>
+                <img
+                  src="/images/c78c7862-ad02-47c7-ba46-0c9787ddeae0.webp"
+                  alt=""
+                />
+              </div>
+              <div className={styles.platforms__text}>
+                <span>Образовательная цифровая платформа EXAM</span>
+                <a href="/" className={styles.platforms__link}>
+                  Подробнее ⟶
+                </a>
+              </div>
             </div>
           </SwiperSlide>
 

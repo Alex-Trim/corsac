@@ -8,7 +8,7 @@ const projects = [
     title: "Для бизнеса",
     description:
       " Корпоративное обучение для топ-менеджеров компаний, собственников бизнеса и их команд в соответствии с требованиями цифровой экономики.",
-    src: "/images/For-business-Picsart-BackgroundRemover.png",
+    src: "/images/For-business-Picsart-BackgroundRemover.webp",
     link: "",
     color: "",
   },
@@ -16,7 +16,7 @@ const projects = [
     title: "Для госсектора",
     description:
       "Повышение квалификации представителей органов государственной власти и местного самоуправления, подведомственных организаций, а также подготовка регионов к цифровой трансформации.",
-    src: "/images/For-the-public-sector-Picsart-BackgroundRemover.png",
+    src: "/images/For-the-public-sector-Picsart-BackgroundRemover.webp",
     link: "",
     color: "",
   },
@@ -24,7 +24,7 @@ const projects = [
     title: "Для физических лиц",
     description:
       "Получение востребованной ИТ-специальности по программам повышения квалификации с выдачей официального документа установленного образца о профессиональной переподготовке.",
-    src: "/images/Fox-individuals.png",
+    src: "/images/Fox-individuals.webp",
     link: "",
     color: "",
   },
@@ -41,12 +41,12 @@ export const Audiences = () => {
           {projects.map((data, index) => {
             return (
               <motion.article
-                initial={{ y: 100, opacity: 0 }}
+                initial={{ y: 200, opacity: 1 }}
                 animate={
-                  isInView ? { y: 0, opacity: 1 } : { y: 100, opacity: 0 }
+                  isInView ? { y: 0, opacity: 1 } : { y: 200, opacity: 1 }
                 }
                 transition={{
-                  duration: 0.6,
+                  duration: 0.8,
                   ease: "easeOut",
                   delay: 0.2 * index,
                 }}

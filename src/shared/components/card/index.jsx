@@ -30,7 +30,12 @@ export const Card = ({
             ))}
           </div>
         </div>
-        <div className={styles.card__img}></div>
+        <div
+          className={styles.card__img}
+          style={{
+            backgroundImage: `url(${src})`,
+          }}
+        ></div>
       </motion.article>
     </div>
   );

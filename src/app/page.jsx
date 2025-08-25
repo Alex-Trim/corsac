@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <main>
       <ScrollContext>
-        {/* <AnimatedBlocksBackground /> */}
+        <AnimatedBlocksBackground />
 
         <Header />
         <Hero />
