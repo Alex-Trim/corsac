@@ -1,5 +1,5 @@
 .navbar__list {
-  margin-bottom: 2em;
+  margin-bottom: 10vh;
   display: flex;
   flex-direction: column;
   column-gap: 5vw;

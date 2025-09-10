@@ -4,7 +4,7 @@ import { Navbar } from "../navbar";
 import Curve from "../curve";
 import { motion } from "framer-motion";
 import { menuSlide, menuContain } from "../../lib/anim";
-export const Menus = () => {
+export const Menus = ({ closeMenu }) => {
   return (
     <motion.div
       initial="initial"
@@ -20,8 +20,8 @@ export const Menus = () => {
             <div className={`${style.menu__contact}`}>
               <p>Свяжитесь с нами:</p>
               <strong>
-                <a href="email:exam@mail.osu.ru" className="link">
-                  exam@mail.osu.ru
+                <a href="email:corsac@mail.osu.ru" className="link">
+                  corsac@mail.osu.ru
                 </a>
               </strong>
               <strong>
@@ -34,7 +34,7 @@ export const Menus = () => {
               </a>
             </div>
           </div>
-          <Navbar />
+          <Navbar closeMenu={closeMenu} />
         </div>
         <Curve />
       </motion.div>

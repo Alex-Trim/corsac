@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import { Menus } from "../menu";
 import styles from "./header.module.css";
 import { motion, AnimatePresence } from "framer-motion";
@@ -54,13 +55,17 @@ export const Header = () => {
       }
     }
   }, [menuState, lenis]);
+
+  const closeMenu = () => {
+    setMenuState(false);
+  };
   return (
     <header
       data-scroll-section
       className={`${styles.header} ${menuState ? styles.header_open : ""}`}
     >
       <div className={`container ${styles.header__container}`}>
-        <div className={styles.logo__link}>
+        <Link href={"/"} className={styles.logo__link} onClick={closeMenu}>
           <img src="/images/corsac.svg" alt="Корсак лого" />
           <AnimatePresence mode="wait">
             {menuState && (
@@ -75,8 +80,9 @@ export const Header = () => {
                 </h3>
               </motion.div>
             )}
-          </AnimatePresence>
-        </div>
+          </AnimatePresence>{" "}
+        </Link>
+
         <button
           className={styles.header__btn}
           onClick={() => {
@@ -86,7 +92,9 @@ export const Header = () => {
         >
           <span> {menuState ? "Закрыть" : "Меню"}</span>
         </button>
-        <AnimatePresence mode="wait">{menuState && <Menus />}</AnimatePresence>
+        <AnimatePresence mode="wait">
+          {menuState && <Menus closeMenu={closeMenu} />}
+        </AnimatePresence>
       </div>
     </header>
   );

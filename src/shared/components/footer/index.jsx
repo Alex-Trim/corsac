@@ -103,8 +103,8 @@ export const Footer = () => {
                 <span>E-mail</span>
               </p>
               <span>:</span>
-              <a href="email:post@mail.osu.ru" className="link">
-                post@mail.osu.ru
+              <a href="email:corsac@mail.osu.ru" className="link">
+                corsac@mail.osu.ru
               </a>
               <p className={`staples`}>
                 <span>Адрес</span>
@@ -140,33 +140,6 @@ export const Footer = () => {
                 <li>
                   <a href="" className="link">
                     LMS Экзамены
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="link">
-                    LMS MOOC
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div className={styles.info}>
-            <p className={styles.info__titel}>Направления</p>
-            <nav className={styles.info__body}>
-              <ul className={`list-reset ${styles.info__list}`}>
-                <li>
-                  <a href="" className="link">
-                    modle.osu.ru
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="link">
-                    dpo.osu.ru
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="link">
-                    exam.osu.ru
                   </a>
                 </li>
               </ul>

@@ -6,34 +6,33 @@ import styles from "./navbar.module.css";
 const navItems = [
   {
     title: "О нас",
-    href: "/",
+    href: "/about-us",
   },
   {
     title: "LMS ВО",
-    href: "/work",
+    href: "/lms-wo",
   },
   {
     title: "LMS ДПО",
-    href: "/about",
+    href: "/lms-dpo",
   },
   {
     title: "LMS Экзамены",
-    href: "/contact",
-  },
-  {
-    title: "LMS MOOC",
-    href: "/contact",
+    href: "/lms-esam",
   },
 ];
 
-export const Navbar = () => {
+export const Navbar = ({ closeMenu }) => {
   return (
     <nav className={styles.navbar}>
       <ul className={`list-reset ${styles.navbar__list}`}>
         {navItems.map((data, index) => {
           return (
             <li className={styles.navbar__item} key={index}>
-              <AnimatedLink data={{ ...data, index }}></AnimatedLink>
+              <AnimatedLink
+                data={{ ...data, index }}
+                closeMenu={closeMenu}
+              ></AnimatedLink>
             </li>
           );
         })}

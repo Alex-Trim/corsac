@@ -5,12 +5,16 @@ import { slide, child } from "../../lib/anim";
 
 import styles from "./style.module.css";
 
-export const AnimatedLink = ({ data }) => {
+export const AnimatedLink = ({ data, closeMenu }) => {
   const { title, href, index } = data;
-
+  const handleClick = () => {
+    if (closeMenu) {
+      closeMenu();
+    }
+  };
   return (
     <motion.div className={styles.link}>
-      <Link href={href}>
+      <Link href={href} onClick={handleClick}>
         <div className={styles.link__line}>
           <span style={{ backgroundColor: "#b087ff" }}></span>
           <span style={{ backgroundColor: "#ffd074" }}></span>
