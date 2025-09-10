@@ -5,7 +5,8 @@ export const LmsEsamSection = () => {
   return (
     <div className={`container  ${styles.container}`}>
       <h1 className={styles["title--main"]}>
-        LMS ЭКЗАМЕНЫ ОГУ Добро пожаловать на цифровую образовательную платформу
+        <span>LMS ЭКЗАМЕНЫ ОГУ</span>
+        <span>Добро пожаловать на цифровую образовательную платформу</span>
       </h1>
       <h2 className={styles.title}>
         Творческих экзаменационных испытаний Оренбургского государственного

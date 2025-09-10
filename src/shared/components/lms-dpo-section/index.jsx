@@ -5,7 +5,8 @@ export const LmsDpoSection = () => {
   return (
     <div className={`container  ${styles.container}`}>
       <h1 className={styles["title--main"]}>
-        LMS ДПО ОГУ Добро пожаловать на цифровую образовательную платформу
+        <span>LMS ДПО ОГУ</span>
+        <span>Добро пожаловать на цифровую образовательную платформу</span>
       </h1>
       <h2 className={styles.title}>
         Дополнительного профессионального образования Оренбургского

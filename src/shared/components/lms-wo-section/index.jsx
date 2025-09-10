@@ -5,7 +5,8 @@ export const LmsWoSection = () => {
   return (
     <div className={`container  ${styles.container}`}>
       <h1 className={styles["title--main"]}>
-        LMS ВО ОГУ Добро пожаловать на цифровую образовательную платформу
+        <span>LMS ВО ОГУ</span>
+        <span>Добро пожаловать на цифровую образовательную платформу</span>
       </h1>
       <h2 className={styles.title}>
         Высшего образования Оренбургского государственного университета
@@ -53,17 +54,17 @@ export const LmsWoSection = () => {
       <ul className={`list-reset ${styles.list_indicators}`}>
         <li className={styles.list_indicators__item}>
           <div className={styles.indicators}>
-            <span>7000 +</span> <p>Активных пользователей</p>
+            <span>7000&nbsp;+</span> <p>Активных пользователей</p>
           </div>
         </li>
         <li className={styles.list_indicators__item}>
           <div className={styles.indicators}>
-            <span>4500 +</span> <p>Электронных курсов ВО</p>
+            <span>4500&nbsp;+</span> <p>Электронных курсов ВО</p>
           </div>
         </li>
         <li className={styles.list_indicators__item}>
           <div className={styles.indicators}>
-            <span>92 %</span>{" "}
+            <span>92&nbsp;%</span>
             <p>Слушателей удовлетворены качеством работы платформы</p>
           </div>
         </li>
