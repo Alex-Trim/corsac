@@ -22,50 +22,50 @@
         <path fill="#d9c6a1" d="M1168.49,498.49c-7.3,15.6-12.33,28.74-11.24,29.35s7.89-11.55,15.19-27.15,12.33-28.74,11.24-29.35S1175.78,482.88,1168.49,498.49Z" transform="translate(-736.21 -404)"/>
         <path fill="#f8f4e8" d="M1123.84,620.18s69.76-53.24,79.42-71.26,14.38-23.76,14.38-23.76-11.27-8-19.37.07-15.33-10-30.16,14.89c0,0-2.24,17.79-12.07,13.73C1145.85,549.64,1123.84,620.18,1123.84,620.18Z" transform="translate(-736.21 -404)"/>
         <path fill="#e8dcc5" d="M1114.28,628.93s52.77-45.38,71.77-64.26c14.1-14,31.59-39.51,31.59-39.51s10.25,10.79,4.87,21c-5.06,9.57,2.73,17.28-4.24,28.6-7.54,12.24-26,6.41-20.35,23.57,3.42,10.41-6.42,20.7-14.27,26.48-5,3.7-21.55,1.35-17.34,1C1176,625.1,1114.28,628.93,1114.28,628.93Z" transform="translate(-736.21 -404)"/>
-        <path fill="#f2f2f2" d="M1184.38,576.16c-11.44,12.16-20,22.81-19.16,23.78s10.81-8.11,22.25-20.28,20-22.81,19.16-23.78S1195.82,564,1184.38,576.16Z" transform="translate(-736.21 -404)"/>
+        <path fill="#fffbeeff" d="M1184.38,576.16c-11.44,12.16-20,22.81-19.16,23.78s10.81-8.11,22.25-20.28,20-22.81,19.16-23.78S1195.82,564,1184.38,576.16Z" transform="translate(-736.21 -404)"/>
         <rect width="77" height="102" x="105.79" y="236" fill="#d9c6a1"/>
         <rect width="77" height="102" x="273.79" y="237" fill="#e8dcc5"/>
         <rect width="50" height="64" x="253.79" fill="#e8dcc5"/>
         <rect width="349" height="257" x="70.79" y="53" fill="#d9c6a1"/>
         <rect width="340" height="257" x="79.79" y="53" fill="#f8f4e8"/>
-        <rect width="333" height="18" x="82.79" y="57" fill="#f2f2f2"/>
+        <rect width="333" height="18" x="82.79" y="57" fill="#fffbeeff"/>
         <rect width="333" height="232" x="82.79" y="74" fill="#e8dcc5"/>
       </g>
       <g>
         <rect width="41" height="46" x="137.79" y="83" fill="#d9c6a1"/>
         <rect width="41" height="46" x="183.79" y="83" fill="#d9c6a1"/>
         <rect width="41" height="46" x="228.79" y="83" fill="#d9c6a1"/>
-        <rect width="41" height="46" x="274.79" y="83" fill="#f2f2f2"/>
-        <rect width="41" height="46" x="319.79" y="83" fill="#f2f2f2"/>
-        <rect width="41" height="46" x="365.79" y="83" fill="#f2f2f2"/>
-        <rect width="41" height="46" x="137.79" y="136" fill="#f2f2f2"/>
-        <rect width="41" height="46" x="183.79" y="136" fill="#f2f2f2"/>
+        <rect width="41" height="46" x="274.79" y="83" fill="#fffbeeff"/>
+        <rect width="41" height="46" x="319.79" y="83" fill="#fffbeeff"/>
+        <rect width="41" height="46" x="365.79" y="83" fill="#fffbeeff"/>
+        <rect width="41" height="46" x="137.79" y="136" fill="#fffbeeff"/>
+        <rect width="41" height="46" x="183.79" y="136" fill="#fffbeeff"/>
         <rect width="41" height="46" x="228.79" y="136" fill="#f8f4e8"/>
-        <rect width="41" height="46" x="274.79" y="136" fill="#f2f2f2"/>
-        <rect width="41" height="46" x="319.79" y="136" fill="#f2f2f2"/>
-        <rect width="41" height="46" x="365.79" y="136" fill="#f2f2f2"/>
-        <rect width="41" height="46" x="137.79" y="187" fill="#f2f2f2"/>
-        <rect width="41" height="46" x="183.79" y="187" fill="#f2f2f2"/>
+        <rect width="41" height="46" x="274.79" y="136" fill="#fffbeeff"/>
+        <rect width="41" height="46" x="319.79" y="136" fill="#fffbeeff"/>
+        <rect width="41" height="46" x="365.79" y="136" fill="#fffbeeff"/>
+        <rect width="41" height="46" x="137.79" y="187" fill="#fffbeeff"/>
+        <rect width="41" height="46" x="183.79" y="187" fill="#fffbeeff"/>
         <rect width="41" height="46" x="228.79" y="187" fill="#f8f4e8"/>
-        <rect width="41" height="46" x="274.79" y="187" fill="#f2f2f2"/>
+        <rect width="41" height="46" x="274.79" y="187" fill="#fffbeeff"/>
         <rect width="41" height="46" x="319.79" y="187" fill="#f8f4e8"/>
-        <rect width="41" height="46" x="365.79" y="187" fill="#f2f2f2"/>
+        <rect width="41" height="46" x="365.79" y="187" fill="#fffbeeff"/>
         <rect width="41" height="46" x="138.79" y="239" fill="#f8f4e8"/>
         <rect width="41" height="46" x="184.79" y="239" fill="#f8f4e8"/>
-        <rect width="41" height="46" x="229.79" y="239" fill="#f2f2f2"/>
-        <rect width="41" height="46" x="275.79" y="239" fill="#f2f2f2"/>
+        <rect width="41" height="46" x="229.79" y="239" fill="#fffbeeff"/>
+        <rect width="41" height="46" x="275.79" y="239" fill="#fffbeeff"/>
         <rect width="41" height="46" x="320.79" y="239" fill="#d9c6a1"/>
-        <rect width="41" height="46" x="366.79" y="239" fill="#f2f2f2"/>
+        <rect width="41" height="46" x="366.79" y="239" fill="#fffbeeff"/>
         <circle cx="92.29" cy="66.5" r="3.5" fill="#d9c6a1"/>
         <circle cx="103.29" cy="66.5" r="3.5" fill="#d9c6a1"/>
         <circle cx="114.29" cy="66.5" r="3.5" fill="#d9c6a1"/>
-        <rect width="37" height="9" x="92.79" y="135" fill="#f2f2f2" rx="4.5" ry="4.5"/>
-        <rect width="37" height="9" x="92.79" y="187" fill="#f2f2f2" rx="4.5" ry="4.5"/>
-        <rect width="37" height="9" x="92.79" y="239" fill="#f2f2f2" rx="4.5" ry="4.5"/>
+        <rect width="37" height="9" x="92.79" y="135" fill="#fffbeeff" rx="4.5" ry="4.5"/>
+        <rect width="37" height="9" x="92.79" y="187" fill="#fffbeeff" rx="4.5" ry="4.5"/>
+        <rect width="37" height="9" x="92.79" y="239" fill="#fffbeeff" rx="4.5" ry="4.5"/>
         <rect width="23" height="7" x="141.79" y="139" fill="#d9c6a1" rx="3.5" ry="3.5"/>
         <rect width="12" height="5" x="141.79" y="152" fill="#d9c6a1" rx="2.5" ry="2.5"/>
         <rect width="22" height="6" x="188.79" y="139" fill="#d9c6a1" rx="3" ry="3"/>
-        <rect width="22" height="6" x="324.79" y="246" fill="#f2f2f2" rx="3" ry="3"/>
+        <rect width="22" height="6" x="324.79" y="246" fill="#fffbeeff" rx="3" ry="3"/>
         <rect width="22" height="6" x="369.79" y="192" fill="#f5f2e8" rx="3" ry="3"/>
         <rect width="22" height="6" x="368.79" y="140" fill="#f5f2e8" rx="3" ry="3"/>
         <rect width="22" height="6" x="323.79" y="140" fill="#f5f2e8" rx="3" ry="3"/>
@@ -79,14 +79,14 @@
         <circle cx="160.79" cy="248" r="4" fill="#d9c6a1"/>
         <circle cx="146.79" cy="248" r="4" fill="#d9c6a1"/>
         <circle cx="283.79" cy="92" r="4" fill="#d9c6a1"/>
-        <circle cx="236.79" cy="92" r="4" fill="#f2f2f2"/>
-        <circle cx="250.79" cy="92" r="4" fill="#f2f2f2"/>
-        <circle cx="191.79" cy="92" r="4" fill="#f2f2f2"/>
-        <circle cx="205.79" cy="92" r="4" fill="#f2f2f2"/>
-        <circle cx="146.79" cy="92" r="4" fill="#f2f2f2"/>
-        <circle cx="160.79" cy="92" r="4" fill="#f2f2f2"/>
+        <circle cx="236.79" cy="92" r="4" fill="#fffbeeff"/>
+        <circle cx="250.79" cy="92" r="4" fill="#fffbeeff"/>
+        <circle cx="191.79" cy="92" r="4" fill="#fffbeeff"/>
+        <circle cx="205.79" cy="92" r="4" fill="#fffbeeff"/>
+        <circle cx="146.79" cy="92" r="4" fill="#fffbeeff"/>
+        <circle cx="160.79" cy="92" r="4" fill="#fffbeeff"/>
         <text fill="#d9c6a1" font-family="RevaloModernBold,Revalo ModernBold" font-size="28" transform="translate(298.27 124.69)" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">4</text>
-        <text fill="#f2f2f2" font-family="RevaloModernBold,Revalo ModernBold" font-size="28" transform="translate(209.27 124.69)" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">2</text>
+        <text fill="#fffbeeff" font-family="RevaloModernBold,Revalo ModernBold" font-size="28" transform="translate(209.27 124.69)" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">2</text>
         <text fill="#d9c6a1" font-family="RevaloModernBold,Revalo ModernBold" font-size="28" transform="translate(162.61 176.49)" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">7</text>
         <text fill="#d9c6a1" font-family="RevaloModernBold,Revalo ModernBold" font-size="28" transform="translate(289.6 176.55)" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">10</text>
         <text fill="#d9c6a1" font-family="RevaloModernBold,Revalo ModernBold" font-size="28" transform="translate(247.25 228.32)" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}">15</text>
