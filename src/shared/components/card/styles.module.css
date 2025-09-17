@@ -23,6 +23,8 @@
     flex-direction: column;
     row-gap: 2em;
     text-align: center;
+    top: 0 !important;
+    margin-bottom: 2em;
   }
 }
 .card__info {
@@ -38,9 +40,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  /* background-color: hsla(var(--c-neutrals-st), 0.3); */
-  /* mix-blend-mode: hard-light; */
-  /* background-size: auto; */
+
   border-radius: 0.5em;
 }
 
@@ -52,6 +52,7 @@
 .card__title {
   font-weight: 300;
   font-size: 1.5rem;
+  margin-bottom: 1em;
 }
 
 .card__description {
@@ -71,6 +72,7 @@
   .cardContainer {
     position: relative;
     align-items: normal;
+    min-height: auto;
   }
   .card {
     transform: scale(1) !important;
