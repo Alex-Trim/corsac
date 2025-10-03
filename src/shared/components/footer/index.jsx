@@ -123,22 +123,22 @@ export const Footer = () => {
                 className={`list-reset ${styles.info__list}  ${styles.info__list_min}`}
               >
                 <li>
-                  <a href="" className="link">
+                  <a href="/about-us" className="link">
                     О нас
                   </a>
                 </li>
                 <li>
-                  <a href="" className="link">
+                  <a href="/lms-wo" className="link">
                     LMS ВО
                   </a>
                 </li>
                 <li>
-                  <a href="" className="link">
+                  <a href="/lms-dpo" className="link">
                     LMS ДПО
                   </a>
                 </li>
                 <li>
-                  <a href="" className="link">
+                  <a href="/lms-esam" className="link">
                     LMS Экзамены
                   </a>
                 </li>

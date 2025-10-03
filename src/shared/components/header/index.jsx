@@ -42,8 +42,9 @@ export const Header = () => {
   }, [menuState]);
 
   React.useEffect(() => {
-    if (lenis) {
-      console.log(lenis);
+    if (typeof window === "undefined") return;
+
+    if (window.innerWidth > 1024 && lenis) {
       if (menuState) {
         lenis.stop();
         document.body.classList.add("no-scroll");
