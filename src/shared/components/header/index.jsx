@@ -42,16 +42,22 @@ export const Header = () => {
   }, [menuState]);
 
   React.useEffect(() => {
-    if (typeof window === "undefined") return;
+    if (!lenis) return;
 
-    if (window.innerWidth > 1024 && lenis) {
-      if (menuState) {
-        lenis.stop();
-        document.body.classList.add("no-scroll");
+    if (menuState) {
+      lenis.stop();
+      document.body.classList.add("no-scroll");
+
+      // paddingRight только на маленьких экранах
+      if (window.innerWidth < 1024) {
         document.body.style.paddingRight = `15px`;
-      } else {
-        lenis.start();
-        document.body.classList.remove("no-scroll");
+      }
+    } else {
+      lenis.start();
+      document.body.classList.remove("no-scroll");
+
+      // сбрасываем paddingRight только если он был добавлен
+      if (window.innerWidth < 1024) {
         document.body.style.paddingRight = `0px`;
       }
     }

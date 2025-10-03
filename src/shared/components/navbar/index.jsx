@@ -25,7 +25,10 @@ const navItems = [
 export const Navbar = ({ closeMenu }) => {
   return (
     <nav className={styles.navbar}>
-      <ul className={`list-reset ${styles.navbar__list}`}>
+      <ul
+        className={`list-reset ${styles.navbar__list}`}
+        style={{ marginBottom: "10vh" }}
+      >
         {navItems.map((data, index) => {
           return (
             <li className={styles.navbar__item} key={index}>
